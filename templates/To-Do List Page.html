@@ -5,6 +5,7 @@
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>To-do list</title> 
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
     <link rel="stylesheet" href="static\style.css"> 
 </head> 
 
@@ -42,11 +43,15 @@
         <div class="section4"> 
             <button id="clear"> <p>Clear</p> </button> 
             <button id ='dark mode'><p>Switch Mode</p></button>
+            <button id ='Upload File'><p> Upload File</p></button>
+            <input type="file" id="fileInput" value="Choose Files!" accept=".xls, .xlsx" />
+            
         </div> 
 
     </div> 
 
     <script src= "static\script.js"></script> 
+    
 
 </body> 
 
